@@ -1,0 +1,10 @@
+.schedule-viewer {
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule {
+    max-width: 500px;
+    height: 600px;
+    width: 100%;
+}
