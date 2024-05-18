@@ -79,3 +79,7 @@ body {
     align-items: center;
     padding-bottom: 5px;
 }
+
+.hidden {
+    display: none;
+}

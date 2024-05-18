@@ -10,15 +10,30 @@
 </head>
 
 <body>
-    <div class="root">
-        <div class="schedule-viewer">
-            <div class="schedule">
-                <textarea name="content" id=""></textarea>
-                <input type="time" name="" id="">
-                <input type="submit" value="">
+    <form action="/write-check" method="post">
+        <div class="root">
+            <div class="schedule-viewer">
+                <div class="schedule">
+                    <textarea name="content" id="input-content"></textarea>
+                    <div class="formWrap">
+                        <div class="input-importance">
+                            <input type="date" name="endtime" id="dateInput">
+                            <input type="number" name="star" class="hidden" id="starInput">
+                            <div class="stars">
+                                <div class="star">☆</div>
+                                <div class="star">☆</div>
+                                <div class="star">☆</div>
+                                <div class="star">☆</div>
+                                <div class="star">☆</div>
+                            </div>
+                        </div>
+                        <input type="submit" value="게시" class="submit">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
+    <script src="write.js"></script>
 </body>
 
 </html>

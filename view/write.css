@@ -1,3 +1,19 @@
+input,
+textarea {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+#input-content {
+    /*7c95ac*/
+    background-color: #8ca7bf;
+    resize: none;
+    border-radius: 5px;
+    height: 170px;
+    padding: 10px;
+}
+
 .schedule-viewer {
     justify-content: center;
     align-items: center;
@@ -7,4 +23,44 @@
     max-width: 500px;
     height: 600px;
     width: 100%;
+    justify-content: start;
+}
+
+.input-importance{
+    user-select: none;
+}
+
+#dateInput {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.star {
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.formWrap {
+    padding: 20px 10px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submit {
+    cursor: pointer;
+    height: 50px;
+    font-size: 22px;
+}
+
+.submit:hover {
+    background-color: #8ca7bf;
 }
